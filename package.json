@@ -1,0 +1,18 @@
+{
+	"name": "apartment-store",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "npx stylelint \"**/*.scss\" --fix"
+	},
+	"devDependencies": {
+		"sass": "^1.72.0",
+		"stylelint": "^16.2.1",
+		"stylelint-config-standard-scss": "^13.0.0",
+		"vite": "^5.2.0"
+	}
+}
