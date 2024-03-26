@@ -1,0 +1,42 @@
+.header {
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: 136px;
+
+	// .header__logo
+
+	&__logo {
+	}
+
+	// .header__btn
+
+	&__btn {
+	}
+}
+
+.logo {
+}
+
+.nav {
+	&__container {
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	// .nav__link
+
+	&__link {
+	}
+}
+
+.btn-call {
+	width: 274px;
+	height: 56px;
+	padding: 12px 55px 15px;
+	margin: 20px 0 0;
+	border-radius: 10px;
+	border: 1px solid #121761;
+	background-color: transparent;
+}
