@@ -1,17 +1,15 @@
 .steps {
 	// .steps__container
 
-	&__container {
-		display: flex;
+	&__row {
+		// display: flex;
 		gap: 61px;
 	}
 
 	// .steps__img
 
 	&__img {
+		max-width: 380px;
+		max-height: 392px;
 	}
-}
-.container {
-}
-.col {
 }
