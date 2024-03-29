@@ -1,0 +1,76 @@
+@import 'mixins';
+
+.footer {
+	display: flex;
+	color: white;
+	background-color: $grey;
+	height: 223px;
+
+	&__row {
+		height: 100%;
+		display: flex;
+		align-content: center;
+	}
+
+	// .footer__logo
+
+	&__logo {
+		// width: 400px;
+		height: 111.64px;
+		margin: 62px 360px 0 260px;
+	}
+
+	// .footer__contact
+
+	&__contact {
+		// width: 300px;
+		margin: 82px 0 0;
+	}
+
+	// .footer__address
+
+	&__address {
+	}
+
+	// .footer__img-pos
+
+	&__img-pos {
+		margin: -2px 15.05px 0 0;
+	}
+
+	// .footer__phone-number
+
+	&__phone-number {
+	}
+
+	// .footer__img-phone
+
+	&__img-phone {
+		margin: 0 12px 2.5px 0;
+	}
+
+	// .footer__job
+
+	&__job {
+		// width: 400px;
+		margin: 82px 0 0;
+	}
+
+	// .footer__made-p
+
+	&__job-p {
+		margin: 0 0 4px;
+	}
+
+	// .footer__job-img
+
+	&__job-img {
+		margin: -2px 11px 0 0;
+	}
+
+	// .footer__time-job
+
+	&__time-job {
+		@include marg-text;
+	}
+}
