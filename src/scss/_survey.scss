@@ -1,111 +1,117 @@
 .survey {
-	margin: 0 0 171px;
-	padding: 95px 0 120px;
-	background-color: $heavenly-azure;
+  margin: 0 0 171px;
+  padding: 95px 0 120px;
+  background-color: $heavenly-azure;
 
-	// .survey__p
+  // .survey__p
 
-	&__p {
-		margin: 0 0 69px;
-		color: $dark-blue;
-		font-size: 45px;
-		font-weight: 400;
-		line-height: 60px;
-		text-align: center;
-	}
+  &__p {
+    margin: 0 0 69px;
+    color: $dark-blue;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+  }
 
-	// .survey__container
+  // .survey__container
 
-	&__container {
-		max-width: 1140px;
-	}
+  &__container {
+    max-width: 1140px;
+  }
 
-	// .survey__start-survey
+  // .survey__start-survey
 
-	&__start-survey {
-		width: 1040px;
-		display: flex;
-		border-radius: 0 20px 20px;
-		background-color: white;
-		box-shadow: 1px 3px 20px 0 #f0f0f0cc;
-	}
+  &__start-survey {
+    max-width: 1040px;
+    display: flex;
+    border-radius: 0 20px 20px;
+    background-color: white;
+    box-shadow: 1px 3px 20px 0 #f0f0f0cc;
+  }
 
-	// .survey__img
+  // .survey__img
 
-	&__img {
-		width: 290px;
-		height: 710px;
-		background-color: $red;
-		transform: scale(-1, 1);
-		background-repeat: no-repeat;
-		border-radius: 0 20px 20px 0;
-		background-position: 78% 101%;
-		background-image: url('/images/Фон.png');
-	}
+  &__img {
+    width: 290px;
+    height: 710px;
+    background-color: $red;
+    transform: scale(-1, 1);
+    background-repeat: no-repeat;
+    border-radius: 0 20px 20px 0;
+    background-position: 78% 101%;
+    background-image: url("/images/Фон.png");
+  }
 
-	// .survey__info
+  &__img--top {
+    max-width: 671px;
+    height: 127px;
+    border-radius: 20px 20px 0 0;
+  }
 
-	&__info {
-		max-width: 750px;
-	}
+  // .survey__info
 
-	// .survey__info-block
+  &__info {
+    max-width: 750px;
+  }
 
-	&__info-block {
-		margin: 0 0 0 68px;
-	}
+  // .survey__info-block
 
-	// .survey__p-time
+  &__info-block {
+    margin: 0 0 0 68px;
+  }
 
-	&__p-time {
-		margin: 67px 0 74px;
-		color: $wet-asphalt;
-	}
+  // .survey__p-time
 
-	// .survey__h2
+  &__p-time {
+    margin: 67px 0 74px;
+    color: $wet-asphalt;
+  }
 
-	&__h2 {
-		color: $dark-blue;
-		font-size: 35px;
-		font-weight: 400;
-		line-height: 45px;
-		text-align: left;
-		margin: 0 0 30px;
-	}
+  // .survey__h2
 
-	// .survey__btn
+  &__h2 {
+    color: $dark-blue;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    margin: 0 0 30px;
+  }
 
-	&__btn {
-		width: 460px;
-		height: 72px;
-		border: none;
-		color: white;
-		font-size: 23px;
-		font-weight: 700;
-		margin: 0 0 63px;
-		text-align: center;
-		line-height: 27.6px;
-		border-radius: 10px;
-		background-color: $red;
-		font-family: Lato, sans-serif;
-		padding: 20px 186px 21px 187px;
-		box-shadow: 2px 2px 5px 0 #f0f0f0;
-	}
+  // .survey__btn
 
-	// .survey__completion-info
+  &__btn {
+    width: 460px;
+    height: 72px;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 63px;
+    text-align: center;
+    line-height: 27.6px;
+    border-radius: 10px;
+    background-color: $red;
+    font-family: Lato, sans-serif;
+    padding: 20px 186px 21px 187px;
+    box-shadow: 2px 2px 5px 0 #f0f0f0;
+  }
 
-	&__completion-info {
-		font-size: 16px;
-		font-weight: 400;
-		line-height: 26px;
-		text-align: left;
-	}
+  // .survey__completion-info
+
+  &__completion-info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
 }
 
 .stroke-panel--red {
-	border: 1px solid $red;
+  border: 1px solid $red;
 }
 
 .font-color--red {
-	color: $red;
+  color: $red;
 }

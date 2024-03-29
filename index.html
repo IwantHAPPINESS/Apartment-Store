@@ -1,133 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-			crossorigin="anonymous"
-		/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-		<script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="/src/js/main.js"></script>
 
-		<title>Apartment Store</title>
-	</head>
-	<body>
-		<header class="header">
-			<div class="container">
-				<div class="row">
-					<div class="header__logo logo col-sm-2">
-						<img src="/images/Logo.svg" />
-					</div>
+    <title>Apartment Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="header__logo logo col-sm-2">
+            <img src="/images/Logo.svg" />
+          </div>
 
-					<div class="nav col">
-						<div class="nav__container container">
-							<a href="#" class="nav__link col">Как продать квартиру</a>
-							<a href="#" class="nav__link col">Истории клиентов</a>
-							<a href="#" class="nav__link col"><img src="/images/icon/Phone--red.svg" />+ 7 495 783 87 15</a>
-						</div>
-					</div>
+          <div class="nav col">
+            <div class="nav__container container">
+              <a href="#" class="nav__link nav__link--disable col"
+                >Как продать квартиру</a
+              >
+              <a href="#" class="nav__link nav__link--disable col"
+                >Истории клиентов</a
+              >
+              <a href="#" class="nav__link col"
+                ><img src="/images/icon/Phone--red.svg" />+ 7 495 783 87 15</a
+              >
+            </div>
+          </div>
 
-					<button class="header__btn btn-call col-sm-1">Перезвоните мне</button>
-				</div>
-			</div>
-		</header>
+          <button class="header__btn btn-call col-sm-1">Перезвоните мне</button>
+        </div>
+      </div>
+    </header>
 
-		<div class="slide">
-			<div class="container">
-				<div class="learn-doc">
-					<div class="learn-doc__h1">Запутались в сложных терминах и документах?</div>
-					<div class="learn-doc__p">
-						Узнайте, какие <span class="stroke-panel">документы</span> подготовить и что учесть <br />
-						при <span class="stroke-panel">продаже и покупке</span> <br />
-						квартиры
-					</div>
-					<div class="learn-doc__btn">Хочу знать больше</div>
-				</div>
-			</div>
-		</div>
+    <div class="slide">
+      <div class="container">
+        <div class="learn-doc">
+          <div class="learn-doc__h1">
+            Запутались в сложных терминах и документах?
+          </div>
+          <div class="learn-doc__p">
+            Узнайте, какие
+            <span class="stroke-panel">документы</span> подготовить и что учесть
+            <br />
+            при <span class="stroke-panel">продаже и покупке</span> <br />
+            квартиры
+          </div>
+          <div class="learn-doc__btn">Хочу знать больше</div>
+        </div>
+      </div>
+    </div>
 
-		<div class="steps">
-			<div class="container">
-				<div class="row steps__row">
-					<img
-						src="/images/Иллюстрация 1.svg"
-						alt="Какие документы нужны продажи или покупки квартиры?"
-						class="steps__img col"
-					/>
-					<img src="/images/Иллюстрация 2.svg" alt="Зайду на www.ccccc.ru!" class="steps__img" />
-					<img src="/images/Иллюстрация 3.svg" alt="Отлично! Теперь я знаю, что делать!" class="steps__img" />
-				</div>
-			</div>
-		</div>
+    <div class="steps">
+      <div class="container">
+        <div class="row steps__row">
+          <img
+            src="/images/Иллюстрация 1.svg"
+            alt="Какие документы нужны продажи или покупки квартиры?"
+            class="steps__img col"
+          />
+          <img
+            src="/images/Иллюстрация 2.svg"
+            alt="Зайду на www.ccccc.ru!"
+            class="steps__img"
+          />
+          <img
+            src="/images/Иллюстрация 3.svg"
+            alt="Отлично! Теперь я знаю, что делать!"
+            class="steps__img"
+          />
+        </div>
+      </div>
+    </div>
 
-		<div class="survey">
-			<div class="container">
-				<h2 class="survey__p">
-					Пройдите небольшой опрос и узнайте, <br />
-					как <span class="stroke-panel stroke-panel--red">избежать рисков</span> при продаже или<br />
-					покупке квартиры
-				</h2>
+    <div class="survey">
+      <div class="container">
+        <h2 class="survey__p">
+          Пройдите небольшой опрос и узнайте, <br />
+          как
+          <span class="stroke-panel stroke-panel--red">избежать рисков</span>
+          при продаже или<br />
+          покупке квартиры
+        </h2>
 
-				<div class="container survey__container">
-					<div class="survey__start-survey">
-						<div class="survey__img"></div>
-						<div class="survey__info">
-							<div class="survey__info-block">
-								<p class="survey__p-time">
-									Время прохождения опроса <span class="font-color--red">3 минуты</span>
-								</p>
-								<h2 class="survey__h2">
-									Хочу безопасно и легко <br />
-									продать или купить квартиру
-								</h2>
-								<button class="survey__btn">Начать</button>
-								<div class="survey__completion-info">
-									После завершения опроса вы получите PDF <br />
-									файл с содержащий: <br /><br />
-									1. Список документов, необходимых в вашем<br />
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;конкретном случае. <br />
-									2. Разъяснение сложных терминов <br />
-									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«на пальцах». <br />
-									3. Оценку возможных рисков.
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="container survey__container">
+          <div class="survey__img survey__img--top">
+            <img
+              class="survey__img--top"
+              src="/public/images/Mask Group 2.svg"
+              alt=""
+            />
+          </div>
+          <div class="survey__start-survey">
+            <div class="survey__img"></div>
+            <div class="survey__info">
+              <div class="survey__info-block">
+                <p class="survey__p-time">
+                  Время прохождения опроса
+                  <span class="font-color--red">3 минуты</span>
+                </p>
+                <h2 class="survey__h2">
+                  Хочу безопасно и легко <br />
+                  продать или купить квартиру
+                </h2>
+                <button class="survey__btn">Начать</button>
+                <div class="survey__completion-info">
+                  После завершения опроса вы получите PDF <br />
+                  файл с содержащий: <br /><br />
+                  1. Список документов, необходимых в вашем<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;конкретном случае. <br />
+                  2. Разъяснение сложных терминов <br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«на пальцах». <br />
+                  3. Оценку возможных рисков.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<footer class="footer">
-			<img class="logo footer__logo" src="images/icon/logo__footer.svg" alt="логотип" />
-			<div class="container footer__row">
-				<div class="footer__contact col">
-					<p class="footer__address">
-						<img class="footer__img-pos" src="images/icon/Vector.svg" alt="адрес" />г. Москва, Красная площадь д.1
-					</p>
-					<p class="footer__phone-number">
-						<img class="footer__img-phone" src="images/icon/Vector (1).svg" alt="телефон" />+ 7 495 835 47 11
-					</p>
-				</div>
+    <footer class="footer">
+      <img
+        class="logo footer__logo"
+        src="images/icon/logo__footer.svg"
+        alt="логотип"
+      />
+      <div class="container footer__row">
+        <div class="footer__contact col">
+          <p class="footer__address">
+            <img
+              class="footer__img-pos"
+              src="images/icon/Vector.svg"
+              alt="адрес"
+            />г. Москва, Красная площадь д.1
+          </p>
+          <p class="footer__phone-number">
+            <img
+              class="footer__img-phone"
+              src="images/icon/Vector (1).svg"
+              alt="телефон"
+            />+ 7 495 835 47 11
+          </p>
+        </div>
 
-				<div class="footer__job col">
-					<p class="footer__job-p">
-						<img class="footer__job-img" src="/images/icon/Vector (2).svg" alt="часы" />
-						Режим работы
-					</p>
-					<div class="footer__time-job">Пн. - Пт. - с 9:00 до 17:00</div>
-					<div class="footer__time-job">Сб. - Вс. - с 9:00 до 17:00</div>
-				</div>
-			</div>
-		</footer>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-			crossorigin="anonymous"
-		></script>
-	</body>
+        <div class="footer__job col">
+          <p class="footer__job-p">
+            <img
+              class="footer__job-img"
+              src="/images/icon/Vector (2).svg"
+              alt="часы"
+            />
+            Режим работы
+          </p>
+          <div class="footer__time-job">Пн. - Пт. - с 9:00 до 17:00</div>
+          <div class="footer__time-job">Сб. - Вс. - с 9:00 до 17:00</div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

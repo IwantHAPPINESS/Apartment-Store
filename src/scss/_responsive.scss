@@ -1,0 +1,108 @@
+// Устройства X-Small (портретные телефоны, менее 576 пикселей)
+// Нет медиа-запроса для `xs`, так как это значение по умолчанию в Bootstrap
+
+// Устройства XX-Large (большие настольные компьютеры, 1800 пикселей и ниже)
+@media (width < 1800px) {
+  .slide {
+    background-position: 87% 104%;
+  }
+}
+
+@media (width >= 1400px) {
+}
+
+// Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и ниже)
+@media (width < 1400px) {
+  .slide {
+    background-position: 104% 104%;
+  }
+
+  .footer__logo {
+    margin: 61px 235px 0 170px;
+  }
+}
+
+// Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше)
+@media (width >= 1200px) {
+}
+
+// Устройства X-Large (большие настольные компьютеры, 1200 пикселей и ниже)
+@media (width <= 1200px) {
+  .header__btn {
+    display: none;
+  }
+
+  .slide {
+    background-position: 170% 450%;
+  }
+
+  .learn-doc__btn {
+    width: 350px;
+  }
+
+  .footer__logo {
+    margin: 61px 140px 0 120px;
+  }
+}
+
+// Устройства Large (настольные компьютеры, 992 пикселей и выше)
+@media (width >= 992px) {
+  .survey__img--top {
+    display: none;
+  }
+}
+
+// Устройства Large (настольные компьютеры, 992 пикселей и ниже)
+@media (width <= 992px) {
+  .nav__container {
+    margin: 0 0 0 335px;
+  }
+
+  .nav__link--disable {
+    display: none;
+  }
+
+  .nav__link {
+    font-size: 20px;
+  }
+
+  .slide {
+    background-image: none;
+  }
+
+  .survey__img {
+    display: none;
+    background-image: none;
+  }
+
+  .survey__img--top {
+    display: block;
+    max-width: 671px;
+    height: 127px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .survey__start-survey {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .footer__logo {
+    margin: 61px 120px 0 100px;
+  }
+}
+
+// Устройства Medium (планшеты, 768 пикселей и выше)
+@media (width <= 768px) {
+}
+
+// Устройства Medium (планшеты, 768 пикселей и ниже)
+@media (width >= 768px) {
+}
+
+// Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
+@media (width >= 576px) {
+}
+
+// Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и ниже)
+@media (width <= 576px) {
+}
