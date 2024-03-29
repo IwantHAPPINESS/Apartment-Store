@@ -77,26 +77,128 @@
 
   .survey__img--top {
     display: block;
-    max-width: 671px;
+    width: 671px;
     height: 127px;
     border-radius: 20px 20px 0 0;
   }
 
   .survey__start-survey {
+    height: 660px;
     border-radius: 0 0 20px 20px;
   }
 
+  .survey__btn {
+    max-width: 460px;
+    height: 72px;
+  }
+
   .footer__logo {
+    display: none;
     margin: 61px 120px 0 100px;
   }
 }
 
 // Устройства Medium (планшеты, 768 пикселей и выше)
-@media (width <= 768px) {
+@media (width > 768px) {
+  .slide__img {
+    display: none;
+    width: 340.68px;
+    height: 189px;
+  }
 }
 
 // Устройства Medium (планшеты, 768 пикселей и ниже)
-@media (width >= 768px) {
+@media (width < 768px) {
+  .header__logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .nav__container {
+    margin: 0 0 0 250px;
+  }
+
+  .nav__link {
+    color: $wet-asphalt;
+    width: 122px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+  }
+
+  .slide {
+    height: 497px;
+    padding: 20px 0 0;
+    margin: 0 0 50px;
+    background-image: url("/images/Иллюстрация.svg");
+  }
+
+  .learn-doc__h1 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .learn-doc__p {
+    height: 156px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  .stroke-panel--none {
+    padding: 0;
+    border: none;
+  }
+
+  .learn-doc__row-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .learn-doc__btn {
+    width: 320px;
+    height: 48px;
+    border-radius: 20px;
+    padding: 10px 0 0;
+    margin: 0 0 28px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .learn-doc__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .survey__start-survey {
+    height: 555px;
+  }
+
+  .slide__img {
+    width: 340.68px;
+    height: 189px;
+  }
+
+  .survey__img--top {
+    width: 492px;
+    height: 74.44px;
+  }
+
+  .survey__p-time {
+    margin: 24px 0 15px;
+  }
+
+  .survey__btn {
+    width: 275px;
+    height: 48.29px;
+    margin: 0 0 44px;
+    padding: 9px 104px 10px 109px;
+  }
 }
 
 // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
@@ -105,4 +207,9 @@
 
 // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и ниже)
 @media (width <= 576px) {
+  .survey__p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
 }
