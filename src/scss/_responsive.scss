@@ -206,10 +206,45 @@
 }
 
 // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и ниже)
-@media (width <= 576px) {
+@media (width < 576px) {
+  .nav__container {
+    margin: -80px 0 0 200px;
+  }
+
+  .nav__link {
+    width: 150px;
+  }
+
+  .learn-doc__btn {
+    margin-top: 17px;
+  }
+
+  .survey__info-block {
+    margin: 0 0 0 20px;
+  }
+
+  .survey__h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .survey__img--top {
+    width: 377px;
+    height: 74.44px;
+  }
+
   .survey__p {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
   }
 }
+
+// @media (width < 375) {
+//   .survey__img--top {
+//     width: 320px;
+//     height: 74.44px;
+//   }
+// }
