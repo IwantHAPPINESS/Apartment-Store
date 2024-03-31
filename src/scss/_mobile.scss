@@ -1,0 +1,45 @@
+.header-mobile {
+  height: 58px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+
+  // .header-mobile__logo
+
+  &__logo {
+    height: 36.46px;
+  }
+
+  // .header-mobile__link
+
+  &__link {
+    width: 142px;
+    height: 21.57px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+  }
+
+  &__link img {
+    width: 16.84px;
+    height: 16.84px;
+    rotate: -6.22 deg;
+  }
+}
+
+.survey-mobile {
+  width: 320px;
+
+  //   height: 531.15px;
+  margin: 0 0 43px;
+
+  //   &__container {
+  //     width: 320px;
+  //     height: 74.44px;
+  //   }
+}
+
+.survey__img--top {
+  width: 320px;
+}

@@ -203,16 +203,47 @@
 
 // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
 @media (width >= 576px) {
+  .header-mobile {
+    display: none;
+  }
+
+  .survey-mobile {
+    display: none;
+  }
 }
 
 // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и ниже)
 @media (width < 576px) {
+  .header {
+    display: none;
+  }
+
+  .header-mobile__link {
+    margin: 9px 0 0;
+  }
+
   .nav__container {
     margin: -80px 0 0 200px;
   }
 
   .nav__link {
     width: 150px;
+  }
+
+  .survey {
+    display: none;
+  }
+
+  .learn-doc__p {
+    height: 85px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .slide__img {
+    height: 246px;
   }
 
   .learn-doc__btn {
@@ -223,6 +254,10 @@
     margin: 0 0 0 20px;
   }
 
+  .survey__start-survey {
+    width: 320px;
+  }
+
   .survey__h2 {
     font-size: 18px;
     font-weight: 400;
@@ -231,7 +266,7 @@
   }
 
   .survey__img--top {
-    width: 377px;
+    width: 320px;
     height: 74.44px;
   }
 
@@ -241,10 +276,3 @@
     line-height: 25px;
   }
 }
-
-// @media (width < 375) {
-//   .survey__img--top {
-//     width: 320px;
-//     height: 74.44px;
-//   }
-// }
